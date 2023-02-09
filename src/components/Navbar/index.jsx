@@ -21,7 +21,7 @@ function Navbar() {
         >
           {navMenus.map((item, key) => {
             return (
-              <Link to={item.to} key={key} className="nav-container-menu-list">
+              <Link onClick={clickHandle} to={item.to} key={key} className="nav-container-menu-list">
                 {item.lable}
               </Link>
             );

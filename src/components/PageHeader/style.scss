@@ -1,0 +1,18 @@
+.header-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--selected-theme-main-color);
+    border-bottom: 1.5px dotted var(--selected-theme-main-color);
+    padding: 20px;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    line-height: 4px;
+    font-weight: 600;
+    &-name{
+        display: flex;
+        align-items: center;
+        flex: 1;
+    }
+}
