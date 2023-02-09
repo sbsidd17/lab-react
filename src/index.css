@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;900&family=Roboto+Slab:wght@500&family=Roboto:wght@500;700;900&display=swap");
+
+:root {
+  --yellow-theme-main-color: #ffdd40;
+  --yellow-theme-bg-color: #1d1d1d;
+  --yellow-theme-nav-bg-color : #181818;
+  --yellow-theme-text-color: #fff;
+
+  --selected-theme-main-color: var(--yellow-theme-main-color);
+  --selected-theme-bg-color: var(--yellow-theme-bg-color);
+  --selected-theme-nav-bg-color: var(--yellow-theme-nav-bg-color);
+  --selected-theme-text-color: var(--yellow-theme-text-color);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  background-color: var(--selected-theme-bg-color);
+  font-family: serif;
+}
+
+#root{
+  height: 100%;
 }

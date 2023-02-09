@@ -1,0 +1,86 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+    height: 80px;
+    opacity: 1;
+    position: sticky;
+    background-color: var(--selected-theme-nav-bg-color);
+    color: var(--selected-theme-main-color); 
+    &-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 80px;
+        padding: 0 20px;
+        &-logo{
+            color : var(--selected-theme-main-color);
+            flex-grow: 1;
+            font-size: 2rem;
+            cursor: pointer;
+        }&-menu{
+            display: flex;
+            text-align: center;
+            list-style: none;
+            &-list{
+                font-size: 1.6rem;
+                margin-right: 20px;
+                line-height: 44px;
+                text-decoration: none;
+                color: var(--selected-theme-main-color);
+                &::after{
+                    content: '';
+                    display: block;
+                    width: 0%;
+                    height: 3px;
+                    background: transparent;
+                    transition: width 0.5s ease;
+                }
+                &:hover::after{
+                    width: 100%;
+                    background-color: var(--selected-theme-main-color);
+                }
+            }
+            &-list:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.menu-icon{
+    display: none;
+}
+
+@media screen and (max-width : 768px) {
+    .nav-container-menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: var(--selected-theme-nav-bg-color);
+        width: 100%;
+        top: 80px;
+        gap: 20px;
+        left: -110%;
+        opacity: 1;
+        transition: all .5s ease;
+        &-list{
+            display: contents;
+        }
+        &.active{
+            left: 0;
+        }
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    
+}
