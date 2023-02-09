@@ -32,12 +32,12 @@ function Home() {
           </div>
           <div className="home-social-icons">
               <ul>
-                <li><a href="https://fb.me/sbsidd"><FaFacebook size={32}/></a></li>
-                <li><a href="https://www.linkedin.com/in/sbsidd17"><FaLinkedin size={32} /></a></li>
-                <li><a href="https://instagram.com/sbsidd"><FaInstagram size={32}/></a></li>
-                <li><a href="https://twitter.com/shuaibsiddiquii"><FaTwitter size={32}/></a></li>
-                <li><a href="https://t.me/shuaib_siddiqui"><FaTelegram size={32}/></a></li>
-                <li><a href="https://github.com/sbsidd17"><FaGithub size={32}/></a></li>
+                <li><a href="https://fb.me/sbsidd"><FaFacebook/></a></li>
+                <li><a href="https://www.linkedin.com/in/sbsidd17"><FaLinkedin/></a></li>
+                <li><a href="https://instagram.com/sbsidd"><FaInstagram/></a></li>
+                <li><a href="https://twitter.com/shuaibsiddiquii"><FaTwitter/></a></li>
+                <li><a href="https://t.me/shuaib_siddiqui"><FaTelegram/></a></li>
+                <li><a href="https://github.com/sbsidd17"><FaGithub/></a></li>
               </ul>
           </div>
         </div>

@@ -21,16 +21,18 @@
   z-index: 5;
   width: 100px;
   position: fixed;
-  right: 5px;
+  right: -110px;
   border-radius: 5px;
   top: calc(50% - 50px);
   background-color: #fff;
-  display: none;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: all 1s ease;
   &.active{
     display: flex;
+    right: 5px;
   }
   h1 {
     font-size: 1.2rem;

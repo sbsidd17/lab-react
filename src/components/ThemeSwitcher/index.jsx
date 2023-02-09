@@ -9,6 +9,7 @@ function ThemeSwitcher() {
   }
 
   const getColor = (e)=>{
+    setClick(!click);
     document.documentElement.style.setProperty('--selected-theme-main-color',e.target.style.backgroundColor);
   }
   const themeColors = ["#04e54b", "#f60505", "#05f6f2", "#ffdd40"];
