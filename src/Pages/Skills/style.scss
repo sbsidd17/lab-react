@@ -1,0 +1,46 @@
+.skills-container {
+  display: flex;
+  gap: 30px;
+  margin: 30px;
+  &-innerContent {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 50px;
+    h1 {
+      color: white;
+      font-size: 2.2rem;
+      border-bottom: 2px solid var(--selected-theme-main-color);
+      align-self: start;
+      padding: 5px 10px;
+    }
+    h1::before {
+        content: "";
+        border: 1.5px solid var(--selected-theme-main-color);
+        height: 3px;
+        display: inline-block;
+        position: relative;
+        bottom: -11px;
+        right: 10px;
+    }
+    h1::after {
+      content: "";
+      border: 1.5px solid var(--selected-theme-main-color);
+      height: 3px;
+      display: inline-block;
+      position: relative;
+      bottom: -11px;
+      right: -10px;
+    }
+    .progressBar p {
+      font-size: 1.5rem;
+      color: #fff;
+    }
+  }
+}
+
+@media screen and (max-width:768px) {
+    .skills-container{
+        flex-direction: column;
+    }
+}
