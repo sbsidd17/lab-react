@@ -5,7 +5,19 @@ import { AiFillProject } from "react-icons/ai";
 import { filterListData, portfolioCardData } from "./portfolioData";
 import { useState } from "react";
 function Portfolio() {
+  const [listHover, setListHover] = useState(1)
   const [hoverIndex, setHoverIndex] = useState(null);
+  const [filterIndex, setFilterIndex] = useState(1);
+  function filterClickHandle(id) {
+    setFilterIndex(id);
+    setListHover(id)
+  }
+  const filteredPortfolioCardData =
+    filterIndex === 1
+      ? portfolioCardData
+      : portfolioCardData.filter((item) => {
+          return item.id === filterIndex;
+        });
   return (
     <div className="portfolio">
       <PageHeader name="My Portfolio" icon={<AiFillProject />} />
@@ -13,12 +25,22 @@ function Portfolio() {
         <div className="portfolio-content-filterSection">
           <ul>
             {filterListData.map((item, key) => {
-              return <li key={key}>{item.label}</li>;
+              return (
+                <li
+                  onClick={() => {
+                    filterClickHandle(item.id);
+                  }}
+                  className = {listHover === item.id ? "active" : ""}
+                  key={key}
+                >
+                  {item.label}
+                </li>
+              );
             })}
           </ul>
         </div>
         <div className="portfolio-content-cardContainer">
-          {portfolioCardData.map((card, key) => {
+          {filteredPortfolioCardData.map((card, key) => {
             return (
               <div
                 key={key}
@@ -36,10 +58,10 @@ function Portfolio() {
                 {hoverIndex === key && (
                   <div className="cardOlay">
                     <div>
-                    <p>{card.cardName}</p>
-                    <a href={card.projectUrl}>
-                      <button>Visit Now</button>
-                    </a>
+                      <p>{card.cardName}</p>
+                      <a href={card.projectUrl}>
+                        <button>Visit Now</button>
+                      </a>
                     </div>
                   </div>
                 )}
