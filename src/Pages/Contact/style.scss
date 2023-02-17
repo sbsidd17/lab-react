@@ -1,0 +1,97 @@
+.contact{
+    &-container{
+        &-content{
+            margin: 30px;
+            &-heading{
+                h1 {
+                    color: white;
+                    font-size: 2.2rem;
+                    border-bottom: 2px solid var(--selected-theme-main-color);
+                    align-self: start;
+                    padding: 5px 10px;
+                    text-align: center;
+                    display: inline;
+                    text-transform: uppercase;
+                  }
+                  h1::before {
+                    content: "";
+                    border: 1.5px solid var(--selected-theme-main-color);
+                    height: 3px;
+                    display: inline-block;
+                    position: relative;
+                    bottom: -11px;
+                    right: 10px;
+                  }
+                  h1::after {
+                    content: "";
+                    border: 1.5px solid var(--selected-theme-main-color);
+                    height: 3px;
+                    display: inline-block;
+                    position: relative;
+                    bottom: -11px;
+                    right: -10px;
+                  }
+            }
+            &-formWrapper{
+                margin: 40px;
+                &-form{
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 40px;
+                    .name, .email, .description{
+                        width: 100%;
+                        border: 2px solid var(--selected-theme-main-color);
+                        position: relative;
+                    }
+                    .nameInput, .emailInput, .descriptionInput{
+                        width: 100%;
+                        padding: 30px 15px;
+                        background: transparent;
+                        border: none;
+                        color: var(--selected-theme-main-color);
+                    }
+
+                    .nameInput:focus, .emailInput:focus, .descriptionInput:focus{
+                        outline: none;
+                    }
+                    .nameLabel, .emailLabel, .descriptionLabel {
+                        position: absolute;
+                        font-size: 1.5rem;
+                        color: var(--selected-theme-main-color);
+                        top: 7px;
+                        left: 10px;
+                    }
+                    .nameInput:focus + .nameLabel , .emailInput:focus + .emailLabel, .descriptionInput:focus + .descriptionLabel{
+                        outline: none;
+                        top: -30px;
+                        font-size: 2rem;
+                    }
+                }
+                button{
+                    margin-top: 30px;
+                    border: 1.5px solid var(--selected-theme-main-color);
+                    border-radius: 5px;
+                    background: transparent;
+                    color: var(--selected-theme-main-color);
+                    padding: 10px 50px;
+                    font-size: 2rem;
+                    &:hover{
+                        background-color: var(--selected-theme-main-color);
+                        color: black;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .contact-container-content-formWrapper{
+        margin: 0px;
+        margin-top: 40px;
+    }
+    .contact-container-content-formWrapper-form{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
