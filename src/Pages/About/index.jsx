@@ -2,7 +2,7 @@ import React from "react";
 import {
   FaInfoCircle,
   FaReact,
-  FaNodeJs,
+  FaNode,
 } from "react-icons/fa";
 import { SiExpress, SiMongodb } from 'react-icons/si';
 import { Animate } from "react-simple-animate";
@@ -98,7 +98,7 @@ function About() {
                   <SiMongodb size={64} />
                 </div>
                 <div>
-                  <FaNodeJs size={64} />
+                  <FaNode size={64} />
                 </div>
               </div>
             </Animate>
