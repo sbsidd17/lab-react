@@ -33,17 +33,23 @@ function About() {
             >
               <h1>Full Stack Developer</h1>
               <p>
-                Seasoned and independent Front End Developer with 5 years of
-                experience in blending the art of design with skill of
-                programming to deliver an immersive and engaging user experience
-                through efficient website development, proactive feature
-                optimization, and relentless debugging. Very passionate about
-                aesthetics and UI design. It is imperative that you provide a
-                thorough and professional approach to your resume. As a Front
-                End Developer you'll be judged by your ability to use UX and UI
-                concepts and follow design guidelines. It's about expressing
-                your attention to detail and how you can help implement design
-                ideas for your future employer.
+                As an individual passionate about coding, I have spent countless
+                hours honing my skills and pursuing my dream of becoming a
+                proficient and accomplished programmer. While I do not hold a
+                traditional degree in coding or computer science, I have
+                developed a natural talent for this craft and have become
+                proficient in various programming languages. I possess a keen
+                eye for detail and a talent for problem-solving, which enables
+                me to develop innovative and effective coding solutions. My
+                passion for coding has allowed me to stay up-to-date with the
+                latest industry trends, and I am always seeking out new
+                challenges to develop my skills further. As a self-taught coder,
+                I have gained a unique perspective on the field, and I am
+                confident that my creative approach and dedication will enable
+                me to bring fresh ideas and perspectives to any team. I am
+                excited to continue my career in coding and to make valuable
+                contributions to any organization that values dedication, hard
+                work, and innovation.
               </p>
             </Animate>
             <Animate
