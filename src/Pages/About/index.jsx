@@ -1,11 +1,11 @@
 import React from "react";
 import {
   FaInfoCircle,
-  FaDev,
   FaDatabase,
   FaReact,
   FaNodeJs,
 } from "react-icons/fa";
+import { SiExpress } from 'react-icons/si';
 import { Animate } from "react-simple-animate";
 import PageHeader from "../../components/PageHeader";
 import { personalinfo } from "./personalinfo";
@@ -93,7 +93,7 @@ function About() {
                   <FaReact size={64} />
                 </div>
                 <div>
-                  <FaDev size={64} />
+                  <SiExpress size={64} />
                 </div>
                 <div>
                   <FaDatabase size={64} />
