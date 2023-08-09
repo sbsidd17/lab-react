@@ -23,7 +23,7 @@ function Home() {
             <br />
             <Typewriter
             options={{
-              strings: ["Front End Developer...", "Back End Developer...", "Full Stack Developer...", "UX-UI Designer"],
+              strings: ["Front End Developer...", "Back End Developer...", "Full Stack Developer..."],
               autoStart: true,
               loop: true,
             }}
