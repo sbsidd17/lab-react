@@ -4,44 +4,154 @@ export const filterListData = [
         id : 1
     },
     {
-        label : "development",
+        label : "HTML & CSS",
         id : 2
     },
     {
-        label : "Design",
+        label : "JavaScript",
+        id : 3
+    },
+     {
+        label : "React Js",
+        id : 4
+    },
+     {
+        label : "Full Stack (MERN)",
         id : 3
     },
 ]
 
 export const portfolioCardData = [
     {
-        cardName : "social media app",
+        cardName : "Restaurant Landing Page",
         id : 2,
-        projectUrl : "", 
-        imgUrl : "https://img.freepik.com/free-vector/business-training-concept-vector-illustration-website-landing-page-isometric-businesswoman_1150-57083.jpg?w=740&t=st=1676380086~exp=1676380686~hmac=1d21c21009f7e4513fb4d59c9b063c698da7fac81e9648d7092f5b4296905467"
+        projectUrl : "https://charming-figolla-8d0509.netlify.app", 
+        imgUrl : "https://graph.org/file/d90c70fa020b644df56af.jpg"
     },
     {
-        cardName : "project 2",
+        cardName : "SEO Website",
+        id : 2,
+        projectUrl : "https://comforting-lily-98a4dd.netlify.app", 
+        imgUrl : "https://graph.org/file/ce5ebdeb161081187404a.jpg"
+    },
+    {
+        cardName : "Portfolio",
+        id : 2,
+        projectUrl : "https://taupe-elf-3123a5.netlify.app", 
+        imgUrl : "https://graph.org/file/52a8bbd0b53ba56462f20.jpg"
+    },
+    {
+        cardName : "Calm",
+        id : 2,
+        projectUrl : "https://splendid-malabi-08adf3.netlify.app", 
+        imgUrl : "https://graph.org/file/81a2121bb60718dda30fb.jpg"
+    },
+    {
+        cardName : "Portfolio2",
+        id : 2,
+        projectUrl : "https://cute-cat-ec5456.netlify.app", 
+        imgUrl : "https://graph.org/file/4a4f71270d4c41394a018.jpg"
+    },
+    {
+        cardName : "Beats",
+        id : 2,
+        projectUrl : "https://gleeful-blancmange-1fc181.netlify.app", 
+        imgUrl : "https://graph.org/file/034446692e48816a3de87.jpg"
+    },
+    {
+        cardName : "Crypto",
+        id : 2,
+        projectUrl : "https://sprightly-meerkat-a99468.netlify.app", 
+        imgUrl : "https://graph.org/file/83ef0752627a711c47913.jpg"
+    },
+    {
+        cardName : "Medifine",
+        id : 2,
+        projectUrl : "https://stupendous-phoenix-2bea7b.netlify.app", 
+        imgUrl : "https://graph.org/file/532c9a129aa085377b640.jpg"
+    },
+    {
+        cardName : "Real State",
+        id : 2,
+        projectUrl : "https://verdant-vacherin-845023.netlify.app", 
+        imgUrl : "https://graph.org/file/eb7532e010fb106e15960.jpg"
+    },
+    {
+        cardName : "Js Quiz",
         id : 3,
-        projectUrl : "", 
-        imgUrl : "https://img.freepik.com/free-photo/young-woman-working-laptop-isolated-white-background_231208-1838.jpg?w=900&t=st=1676380129~exp=1676380729~hmac=72de02fcca5d322c094c874d170b93e0403d8b5dfc594cdb27dab10e925bd221"
+        projectUrl : "https://sbsidd17.github.io/Quiz-App/", 
+        imgUrl : "https://graph.org/file/43233e91bccb2a10d2ed4.jpg"
     },
     {
-        cardName : "project 3",
-        id : 2,
-        projectUrl : "", 
-        imgUrl : "https://img.freepik.com/free-vector/webinar-concept-illustration_114360-4764.jpg?w=900&t=st=1676380164~exp=1676380764~hmac=ee76d582f242b1cc5cb49669fb94d9c9abf7fb76687b5ad19e9e7dbb2f2ccb5a"
-    },
-    {
-        cardName : "project 4",
+        cardName : "Js E-Com",
         id : 3,
-        projectUrl : "", 
-        imgUrl : "https://img.freepik.com/free-vector/presentation-during-exhibition-isometric-composition_1284-23589.jpg?w=740&t=st=1676380186~exp=1676380786~hmac=51249e44fa561977e054f876f39a20f9d641ad595e0d7805feaca3b4e0bf0f1f"
+        projectUrl : "https://github.com/sbsidd17/js-e-com", 
+        imgUrl : "https://graph.org/file/1d00866f972ccdb51f5b0.jpg"
     },
     {
-        cardName : "project 5",
-        id : 2,
-        projectUrl : "", 
-        imgUrl : "https://img.freepik.com/free-vector/digital-presentation-concept-illustration_114360-8115.jpg?w=900&t=st=1676380217~exp=1676380817~hmac=979ece89ec87680b0f79ec72f8f82b149a11b598dff96fcad0032476d367e203"
+        cardName : "Publish Your Story",
+        id : 3,
+        projectUrl : "https://github.com/sbsidd17/Js-Publish-Your-Story", 
+        imgUrl : "https://graph.org/file/12581ddf61c43925f0fcc.jpg"
+    },
+    {
+        cardName : "Github User Finder",
+        id : 3,
+        projectUrl : "https://github.com/sbsidd17/GitHub-User-Finder", 
+        imgUrl : "https://graph.org/file/980910da495ebc9e4305f.jpg"
+    },
+    {
+        cardName : "Digital Clock",
+        id : 3,
+        projectUrl : "https://github.com/sbsidd17/Digital-Clock", 
+        imgUrl : "https://graph.org/file/ddda42a3d9bc6047c8558.jpg"
+    },
+    {
+        cardName : "Random Password Generator",
+        id : 3,
+        projectUrl : "https://github.com/sbsidd17/randomPasswordGenrator", 
+        imgUrl : "https://graph.org/file/bba9ffe274f60702acd3a.jpg"
+    },
+    {
+        cardName : "Movie Search App",
+        id : 3,
+        projectUrl : "https://github.com/sbsidd17/MileStone2-Repo", 
+        imgUrl : "https://graph.org/file/0fd150aa075d67dab427d.jpg"
+    },
+    {
+        cardName : "Js Blog App",
+        id : 3,
+        projectUrl : "https://github.com/sbsidd17/MileStone2-Repo", 
+        imgUrl : "https://graph.org/file/4415eb535af0a67620769.jpg"
+    },
+    {
+        cardName : "Js Todo App",
+        id : 3,
+        projectUrl : "https://github.com/sbsidd17/MileStone2-Repo", 
+        imgUrl : "https://graph.org/file/d063ce667360641803c60.jpg"
+    },
+    {
+        cardName : "React Image Gallery",
+        id : 4,
+        projectUrl : "https://github.com/sbsidd17/Image-Gallery-React-App", 
+        imgUrl : "https://graph.org/file/e50b9e9d7908f015c367d.jpg"
+    },
+    {
+        cardName : "React Gif Ninja",
+        id : 4,
+        projectUrl : "https://gifninja.netlify.app/", 
+        imgUrl : "https://graph.org/file/fbaccdbf42a5d0e83a010.jpg"
+    },
+    {
+        cardName : "React Notes Manager",
+        id : 4,
+        projectUrl : "https://comforting-zuccutto-614cc5.netlify.app/", 
+        imgUrl : "https://graph.org/file/8ce1676a13dfc57b293f0.jpg"
+    },
+    {
+        cardName : "React E-Com Cart",
+        id : 4,
+        projectUrl : "https://golden-cat-818a95.netlify.app/", 
+        imgUrl : "https://graph.org/file/1c97936b95c636a170b6a.jpg"
     },
 ]
